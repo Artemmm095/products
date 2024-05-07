@@ -1,0 +1,11 @@
+.main {
+    color: black;
+    margin: 13px 0 0 0;
+    align-self: flex-start;
+}
+.main h2 {
+    margin: 0;
+    padding: 0;
+    height: 55px;
+    overflow: hidden;
+}

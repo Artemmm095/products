@@ -1,0 +1,8 @@
+.main {
+    color: #bcb4b4;
+    margin: 13px 0 0 0;
+    align-self: flex-start;
+}
+.main:hover {
+    text-decoration: underline;
+}

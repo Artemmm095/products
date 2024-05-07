@@ -1,0 +1,17 @@
+header {
+    background-color: rgba(16, 16, 16, 0.6);
+    color: white;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    padding:0;
+    margin: 0;
+}
+
+footer p {
+    text-align: center;
+}
