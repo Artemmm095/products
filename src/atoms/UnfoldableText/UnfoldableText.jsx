@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './index.css';
+import styles from './index.module.css';
 
 const UnfoldableText = ({ text }) => {
     const [isUnfolded, setIsUnfolded] = useState(false);
@@ -9,7 +9,7 @@ const UnfoldableText = ({ text }) => {
     }
 
     return (
-        <div className="main">
+        <div className={styles.main}>
             <p className={isUnfolded ? "unfolded" : ""}>{text}</p>
             <input
                 type="button"

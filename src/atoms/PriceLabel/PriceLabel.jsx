@@ -1,9 +1,9 @@
 import React from 'react';
-import './index.css';
+import styles from './index.module.css';
 
 const PriceLabel = ({ price }) => {
     return (
-        <h1 className="main">${price}</h1>
+        <h1 className={styles.main}>${price}</h1>
     );
 };
 

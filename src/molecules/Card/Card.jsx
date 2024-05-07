@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.css';
+import styles from './index.module.css';
 import ProductPicture from '../../atoms/ProductPicture/ProductPicture';
 import LinkTitle from '../../atoms/LinkTitle/LinkTitle';
 import LinkLabel from '../../atoms/LinkLabel/LinkLabel';
@@ -9,7 +9,7 @@ import BtnSubmit from '../../atoms/BtnSubmit/BtnSubmit';
 
 const Card = ({ title, type, description, price }) => {
     return (
-        <div className="main">
+        <div className={styles.main}>
             <ProductPicture />
             <LinkTitle titleText={title} />
             <LinkLabel labelText={type} />

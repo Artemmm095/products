@@ -1,10 +1,10 @@
 import React from 'react';
-import './index.css';
+import styles from './index.module.css';
 
 const ProductPicture = () => {
     return (
         <a href="#">
-            <div className="main">
+            <div className={styles.main}>
                 <img src="#" alt="Product_picture" />
             </div>
         </a>

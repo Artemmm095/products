@@ -1,9 +1,9 @@
 import React from 'react';
-import './index.css';
+import styles from './index.module.css';
 
 const BtnSubmit = ({ actionTitle }) => {
     return (
-        <input type="submit" className="main" value={actionTitle} />
+        <input type="submit" className={styles.main} value={actionTitle} />
     );
 };
 

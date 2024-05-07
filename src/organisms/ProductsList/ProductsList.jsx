@@ -1,10 +1,10 @@
 import React from 'react'
 import Card from '../../molecules/Card/Card';
-import './index.css';
+import styles from './index.module.css';
 
 const ProductsList = ({ catalog }) => {
     return (
-        <div className="main">
+        <div className={styles.main}>
             { catalog.map((product, index) => (
                 <Card
                     key={index}

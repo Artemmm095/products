@@ -1,9 +1,9 @@
 import React from 'react';
-import './index.css';
+import styles from './index.module.css';
 
 const LinkLabel = ({ labelText }) => {
     return (
-        <a className="main" href="#">{labelText}</a>
+        <a className={styles.main} href="#">{labelText}</a>
     );
 };
 
