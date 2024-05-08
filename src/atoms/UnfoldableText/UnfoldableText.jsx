@@ -1,21 +1,22 @@
 import React, { useState } from 'react';
 import styles from './index.module.css';
 
-const UnfoldableText = ({ text }) => {
+const UnfoldableText = ({ text, onToggle }) => {
     const [isUnfolded, setIsUnfolded] = useState(false);
 
-    function handleFoldUnfold() {
+    function toggleFoldUnfold() {
         setIsUnfolded(!isUnfolded);
+        onToggle();
     }
 
     return (
         <div className={styles.main}>
-            <p className={isUnfolded ? "unfolded" : ""}>{text}</p>
+            <p className={isUnfolded ? styles.unfolded : ""}>{text}</p>
             <input
                 type="button"
-                className="show-more"
+                className={styles.showMore}
                 value={isUnfolded ? "Hide" : "Show more"}
-                onClick={handleFoldUnfold}
+                onClick={toggleFoldUnfold}
             />
         </div>
     );

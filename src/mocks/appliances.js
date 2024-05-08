@@ -1,5 +1,17 @@
 const appliances = [
     {
+        title:'Bloody V8M USB',
+        productType: 'Computer mouse',
+        description: 'The Bloody V8M mouse is developed for getting advantages during long-time gaming. The innovative "Light Strike" technology uses optical microswitches that provide a lightning-fast response time up to 0.2ms.',
+        price: 21.70,
+    },
+    {
+        title:'ZTE Blade A31 2/32GB',
+        productType: 'Mobile phone',
+        description: 'The large 5.45" display, HD+ resolution and IPS matrix became a basis for the great color rendering and detailing of each pixel. This smartphone will help you with every daily task with maximum comfort.',
+        price: 76.59,
+    },
+    {
         title:'Mystery MET-2112',
         productType: 'Toaster',
         description: 'The Mystery appliances offer the wide assortment of high-quality and high-functionality products for affordable price.',
@@ -10,18 +22,6 @@ const appliances = [
         productType: 'Vacuum cleaner',
         description: 'RZTK VC-2000 is the vacuum cleaner for home dry cleaning that helps you to get rid of any dust quickly and effortlessly.',
         price: 43.40,
-    },
-    {
-        title:'ZTE Blade A31 2/32GB',
-        productType: 'Mobile phone',
-        description: 'The large 5.45" display, HD+ resolution and IPS matrix became a basis for the great color rendering and detailing of each pixel. This smartphone will help you with every daily task with maximum comfort.',
-        price: 76.59,
-    },
-    {
-        title:'Bloody V8M USB',
-        productType: 'Computer mouse',
-        description: 'The Bloody V8M mouse is developed for getting advantages during long-time gaming. The innovative "Light Strike" technology uses optical microswitches that provide a lightning-fast response time up to 0.2ms.',
-        price: 21.70,
     },
     {
         title:'Nokia Go Earbuds 2 Pro TWS-222',
